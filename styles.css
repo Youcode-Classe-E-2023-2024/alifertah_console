@@ -60,6 +60,10 @@ p{
     /* font-weight: bolder; */
 }
 
+input:focus{
+    outline: none;
+}
+
 .logo{
     height: 5em;
     width: 20em;
@@ -239,3 +243,41 @@ nav button{
 }
 
 /* subscription */
+.subscription{
+    margin: 0 10rem;
+}
+
+.subscription p{
+    margin-top: 4rem;
+}
+
+span{
+    color: #fff;
+}
+
+.subscriptionform{
+    margin: 2rem 6rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 3rem 5rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.subscription input{
+    padding: 1rem 1rem;
+    padding-right: 50px;
+    border-radius: .5rem;
+}
+
+.subscription button{
+    margin-left: -6.5rem;
+    background-color: var(--secondary);
+    border: 0;
+    padding: 1em 1.5em;
+    color: white;
+    border-radius: .5em;
+    cursor: pointer;
+}
