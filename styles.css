@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap');
 :root{
     --primary : #39289f;
     --secondary : #fa9021;
@@ -12,7 +12,7 @@
 
 body{
     background-color: var(--primary);
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -28,9 +28,26 @@ nav{
     margin: 2em 3em;
 }
 
+h4{
+    color: var(--secondary);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 80px;
+}
+
+p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+}
+
 .logo{
-    font-weight: bold;
-    font-size: x-large;
+    height: 5em;
+    width: 20em;
 }
 .tab{
     margin: 0 2em;
@@ -43,4 +60,31 @@ nav button{
     color: white;
     border-radius: .5em;
     cursor: pointer;
+}
+
+.button1{
+    width: 30%;
+    background-color: var(--secondary);
+    border: 0;
+    padding: 1em 1.5em;
+    color: white;
+    border-radius: 5em;
+    cursor: pointer;
+    margin-top: 3em;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.definition{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subdef{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: left;
 }
