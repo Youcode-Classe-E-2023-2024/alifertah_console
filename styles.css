@@ -29,7 +29,7 @@ nav{
     align-items: center;
     color: white;
     padding: .5em 0;
-    background-color: #ffffff2a;
+    background-color: #ffffff0a;
     backdrop-filter: blur(200px);
     width: 100%;
 }
@@ -70,6 +70,10 @@ input:focus{
 }
 .tab{
     margin: 0 2em;
+}
+
+.tab:hover{
+    transform: rotate(360deg);
 }
 
 nav button{
@@ -280,4 +284,39 @@ span{
     color: white;
     border-radius: .5em;
     cursor: pointer;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    justify-content: space-around;
+    padding: 2rem 0;
+    border-bottom: 1px solid white;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.socialbar{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer{
+    background-color: #000;
+    text-align: center;
+}
+
+.footer{
+    
 }
