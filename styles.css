@@ -387,3 +387,29 @@ footer div{
 .subpara div, .subpara h2, .subpara p{
     margin: 1rem 4rem;
 }
+
+/* team section  */
+
+.team{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5rem 0;
+}
+
+.teammembers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.membercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C140F;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+}
+
+.team h2{
+    margin: 0 0 2rem 6rem;
+}
