@@ -365,7 +365,7 @@ footer div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000;
+    background-color: #000000;
 }
 
 .paragraphsec img{
@@ -412,4 +412,38 @@ footer div{
 
 .team h2{
     margin: 0 0 2rem 6rem;
+}
+
+/* SERVICE PAGE */
+
+/* stats section */
+
+.stats{
+    margin: 10rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statslist{
+    display: flex;
+    background-color: #000;
+    width: 70%;
+    padding: 5rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.statslist img{
+    cursor: pointer;
+}
+
+.statslist > .border{
+    border-right: 2px solid white;
+}
+
+.statslist > div{
+    padding-right: 10%;
 }
