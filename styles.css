@@ -314,9 +314,76 @@ footer div{
 
 .footer{
     background-color: #000;
+    text-align: left;
+}
+
+.footer p{
+    padding: 2rem 0;
     text-align: center;
 }
 
-.footer{
-    
+/* About us Page */
+
+/* benifits section  */
+
+.benifits{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    margin: 5rem 8rem ;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.cardGroup{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card button, .card h4,.card p{
+    margin: 1rem 0;
+}
+
+.card button{
+    padding: .5rem 2rem;
+    background-color: #fa9021;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.paragraphsec{
+    margin: 10rem 0;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+.paragraphsec img{
+    height: 600px;
+    width: 800px;
+}
+
+.subpara{
+    /* background-color: red; */
+    display: flex;
+    align-items: start; 
+    justify-content: space-around;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+}
+
+.subpara div, .subpara h2, .subpara p{
+    margin: 1rem 4rem;
 }
