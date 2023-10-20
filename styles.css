@@ -447,3 +447,38 @@ footer div{
 .statslist > div{
     padding-right: 10%;
 }
+
+/* services benifits section */
+
+.benifitsSection{
+    margin: 4rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center ;
+}
+
+.benifitsSection > img{
+    cursor: pointer;
+}
+
+.notslider{
+    margin: 10rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notslider button{
+    border-radius: 0 !important;
+}
+
+.slider{
+    display: flex;
+}
+
+.notslider > .swipe{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
