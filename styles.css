@@ -482,3 +482,34 @@ footer div{
     width: 40px;
     cursor: pointer;
 }
+
+/* rating section  */
+
+.rating{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rateCard{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin:2rem 0;
+}
+
+.rating > h2{
+    margin: 2rem 0;
+}
+
+.rating > p{
+    margin: 0 0 2rem 0;
+}
+
+.feedback{
+    border: 2px solid white;
+    margin: 2rem;
+    padding: 2rem 4rem;
+    border-radius: .5rem;
+}
