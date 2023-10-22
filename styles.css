@@ -513,3 +513,65 @@ footer div{
     padding: 2rem 4rem;
     border-radius: .5rem;
 }
+
+/* contact page  */
+
+.contactHead{
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm{
+    margin: 4rem  0;
+    background-color: #1c140f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color: #4F4F4F;
+    margin: .5rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    background-color: #2c2520;
+    border: none;
+    color: white;
+    border-radius: .5rem;
+}
+
+input:focus, textarea{
+    outline: none;
+}
+
+input, textarea{
+    padding: .5rem 1rem;
+    border: .1px solid white;
+    margin: .5rem 0;
+}
+
+.name{
+    margin-right: .5rem;
+}
+
+.contactForm button{
+    margin: 3rem;
+    background-color: var(--secondary);
+    border: 0;
+    padding: 1em 1.5em;
+    color: white;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.contactForm h5, .contactForm p{
+    margin: 2rem 0;
+}
