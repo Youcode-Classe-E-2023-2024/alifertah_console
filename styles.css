@@ -776,4 +776,19 @@ input, textarea{
     .team{
         margin: .5rem;
     }
+
+    .statslist{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .border{
+        border: none !important;
+    }
+
+    .benifitsSection > img{
+        display: none;
+    }
 }
