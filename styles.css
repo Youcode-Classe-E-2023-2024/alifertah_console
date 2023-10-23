@@ -261,7 +261,7 @@ span{
 
 .subscriptionform{
     margin: 2rem 6rem;
-    width: 80%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-around;
     background-color: #000;
@@ -523,6 +523,10 @@ footer div{
     align-items: center;
 }
 
+.contactHead > div, .contactHead > h2, .contactHead > p{
+    margin: 1rem 0;
+}
+
 .contactForm{
     margin: 4rem  0;
     background-color: #1c140f;
@@ -575,3 +579,62 @@ input, textarea{
 .contactForm h5, .contactForm p{
     margin: 2rem 0;
 }
+
+@media (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    .definition > img{
+        display: none;
+    }
+    .definition{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cover{
+        display: none;
+    }
+
+    .trendpictures{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription{
+        display: flex;
+        flex-direction: column;
+        margin: 0 ;
+    }
+    .subscription input{
+        margin: 0 auto;
+        width: 40%;
+        /* padding: 0 ; */
+    }
+    .subscriptionform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin: 2rem;
+    }
+    .subscriptionform button{
+        /* padding: .5rem; */
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer > div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialbar{
+        align-self: auto;
+    }
+  }
