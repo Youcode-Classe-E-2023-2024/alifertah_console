@@ -601,6 +601,21 @@ input, textarea{
 
 
 @media (max-width: 600px) {
+    h1{
+        font-size: 32px;
+    }
+
+    .button1{
+        font-size: .75rem;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .transbutton{
+        font-size: .75rem;
+    }
     nav{
         display: none;
     }
@@ -728,5 +743,31 @@ input, textarea{
         margin: 0;
     }
 
-    
+    .cardGroup{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card{
+        margin: .5rem 0;
+    }
+
+    .paragraphsec img{
+        display: none;
+    }
+
+    .paragraphsec{
+        padding: 0;
+    }
+
+    .teammembers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team{
+        margin: .5rem;
+    }
 }
