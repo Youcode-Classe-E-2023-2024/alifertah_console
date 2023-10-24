@@ -789,6 +789,23 @@ input, textarea{
     }
 
     .benifitsSection > img{
+        display: none   ;
+    }
+
+    .rateCard{
+        display: flex;
+        flex-direction: column;
+    }
+    .feedback{
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .notslider img{
         display: none;
+    }
+
+    .benifitsSection{
+        margin: 0;
     }
 }
