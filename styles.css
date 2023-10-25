@@ -784,6 +784,11 @@ input, textarea{
         width: 94%;
     }
 
+    .statslist > div{
+        padding: 0!important;
+        margin: 1rem 0;
+    }
+
     .border{
         border: none !important;
     }
